@@ -1,3 +1,3 @@
 # Assignment
 
-# Go to Local -> CodeSpace
+# Go to <> code -> CodeSpace
