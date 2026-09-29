@@ -8,5 +8,7 @@
         "**/Thumbs.db": true,
         "**/*.crswap": true
     },
-    "hide-files.files": []
+    "hide-files.files": [
+        "Second Assignment/5"
+    ]
 }
