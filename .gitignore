@@ -4,13 +4,13 @@
 *.exe
 a.out
 
-# 리눅스 실행 바이너리 (확장자 없는 실행 파일) 무시 패턴
-[Ff]irst\ [Aa]ssignment/*
-[Ss]econd\ [Aa]ssignment/*
-[Tt]hird\ [Aa]ssignment/*
-!*.[ch]
-!*.md
-!*.txt
+# 모든 하위 폴더 내 확장자 없는 바이너리 실행 파일 무시 규칙
+*Assignment/*
+!*Assignment/*.*
+!*Assignment/**/*.c
+!*Assignment/**/*.h
+!*Assignment/**/*.md
+!*Assignment/**/*.txt
 
 # VS Code 및 시스템 임시 파일
 .vscode/
