@@ -12,5 +12,6 @@ int main(void) // 메인 함수를 정의한다.
     printf("학생 번호: %d\n", number); // number 변수를 정수 타입으로 출력한다.
     printf("반: %c\n", classroom); // classroom 변수를 문자 타입으로 출력한다.
 
+    
     return 0; // 함수를 종료한다.
 }
