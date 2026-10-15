@@ -35,3 +35,5 @@ int main()
         printf("장학금 비대상입니다.");
     return 0;
 }
+
+//test
