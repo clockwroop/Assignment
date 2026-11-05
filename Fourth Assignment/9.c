@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-// 함수 원형 선언 (피제수, 제수 및 결과 저장용 주소 전달)
+// 함수 프로토타입 선언
 void divide_result(int a, int b, int *q, int *r);
 
 int main(void)
 {
     int a, b;
-    int quotient = 0;  // 몫 저장용 변수
+    int quotient = 0; // 몫 저장용 변수
     int remainder = 0; // 나머지 저장용 변수
 
-    printf("두 정수 입력: "); // 입력 요구 출력문
-    scanf("%d %d", &a, &b);   // 두 정수 입력
+    printf("두 정수 입력: "); // 입력 프롬프트 출력
+    scanf("%d %d", &a, &b); // 두 정수 입력
 
     // 제수 0 입력에 대한 사전 오류 예외 처리
     if (b == 0)
     {
-        printf("0으로 나눌 수 없습니다.\n"); // 오류 안내문 출력
+        printf("0으로 나눌 수 없습니다.\n"); // 오류 출력
     }
     else
     {

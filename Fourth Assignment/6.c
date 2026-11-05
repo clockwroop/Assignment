@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 함수 원형 선언 (변수 주소를 전달받기 위한 포인터 매개변수 선언)
+// 함수 프로토타입 선언
 void swap(int *p, int *q);
 
 int main(void)
@@ -8,7 +8,7 @@ int main(void)
     int a, b; // 교환할 두 정수 변수 생성
 
     printf("두 정수 입력: "); // 입력 안내 문구 출력
-    scanf("%d %d", &a, &b);   // 두 정수 값 입력
+    scanf("%d %d", &a, &b); // 두 정수 값 입력
 
     // 함수 호출 전 main 변수 값 출력
     printf("호출 전: a=%d, b=%d\n", a, b);

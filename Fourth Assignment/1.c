@@ -11,7 +11,7 @@ int main(void)
     for (i = 0; i < 7; i++)
     {
         scanf("%d", &score[i]); // i번째 위치에 점수 입력
-        sum += score[i];        // 입력받은 점수 합계 누적
+        sum += score[i]; // 입력받은 점수 합계 누적
     }
 
     // 최댓값, 최솟값 초기화 (배열의 0번째 원소 기준)
@@ -19,7 +19,7 @@ int main(void)
     int min = score[0];
     int count = 0; // 평균 이상 학생 수 카운트 변수
 
-    // 실수형 평균 계산 (자료형 변환)
+    // 실수형 평균 계산
     double avg = (double)sum / 7;
 
     // 1번째 원소부터 끝까지 순회하며 최고점 및 최저점 탐색

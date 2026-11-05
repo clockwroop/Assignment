@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-// 함수 원형 선언 (배열, 길이, 최솟값/최댓값 결과 저장용 포인터 전달)
+// 함수 프로토타입 선언
 void find_minmax(int a[], int length, int *min, int *max);
 
 int main(void)
 {
     int i, arr[6]; // 크기 6인 정수형 배열 생성
-    int min, max;  // 최솟값, 최댓값 저장 변수 생성
+    int min, max; // 최솟값, 최댓값 저장 변수 생성
 
-    printf("정수 6개 입력: "); // 입력 안내 문구 출력
+    printf("정수 6개 입력: "); // 입력 프롬프트 출력
     for (i = 0; i < 6; i++)
     {
         scanf("%d", &arr[i]); // 배열 원소 6개 입력

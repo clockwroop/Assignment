@@ -1,26 +1,26 @@
 #include <stdio.h>
 
-// 함수 원형 선언 (배열의 시작 주소와 길이를 인수로 전달받음)
+// 함수 프로토타입 선언
 void double_values(int a[], int length);
 
 int main(void)
 {
     int i, x[5]; // 원소 5개 정수형 배열 생성
 
-    printf("입력 배열: "); // 입력 안내 문구 출력
+    printf("입력 배열: "); // 입력 프롬프트 출력
     for (i = 0; i < 5; i++)
     {
         scanf("%d", &x[i]); // 배열 원소 5개 입력
     }
 
-    printf("변경 전: "); // 변경 전 안내 출력
+    printf("변경 전: "); // 변경 전 프롬프트 출력
     for (i = 0; i < 5; i++)
     {
         printf("%d ", x[i]); // 함수 호출 전 원본 배열 출력
     }
     printf("\n");
 
-    // 함수 호출 (배열 이름 x를 전달하여 원본 배열 주소 넘김)
+    // 함수 호출
     double_values(x, 5);
 
     printf("변경 후: "); // 변경 후 안내 출력
